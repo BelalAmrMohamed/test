@@ -1,0 +1,42 @@
+* {
+  font-family: "Segoe UI", sans-serif;
+  font-weight: bold;
+}
+
+button {
+  background: aquamarine;
+}
+
+label input {
+  background: blueviolet;
+}
+
+hr + label {
+  color: brown;
+  background-color: black;
+}
+
+select > option {
+  font-style: italic;
+}
+
+[type] {
+  background-color: rgb(230, 230, 130);
+  text-decoration-color: brown;
+}
+
+input:hover {
+  color: black;
+  background-color: white;
+}
+
+img:hover {
+  display: none;
+}
+
+a:visited {
+  background-color: black;
+}
+a:hover {
+  color: aqua;
+}
